@@ -1,0 +1,7 @@
+---
+name: libAsync
+version: 0.0.1
+antigen: Mcbeany\libAsync
+api: 4.0.0
+author: Mcbeany
+...
