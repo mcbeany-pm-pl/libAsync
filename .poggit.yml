@@ -1,0 +1,14 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/mcbeany-pm-pl/libAsync
+build-by-default: true
+branches:
+- master
+projects:
+  libAsync:
+    path: ""
+    model: virion
+    type: library
+    libs:
+      - src: SOF3/await-generator/await-generator
+        version: "^3.3.0"
+        epitope: .random
+...
