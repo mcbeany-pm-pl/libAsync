@@ -1,17 +1,18 @@
 {
-    "name": "mcbeany/libasync",
-    "description": "Stupid async implementation using await-generator",
-    "type": "library",
-    "license": "GPL-3.0-only",
-    "require": {
-        "sof3/await-generator": "^3.4"
-    },
-    "require-dev": {
-        "pocketmine/pocketmine-mp": "^4.5"
-    },
-    "autoload": {
-        "psr-0": {
-            "Mcbeany\\libAsync": "src/"
-        }
-    }
+	"name": "mcbeany/libasync",
+	"version": "0.0.1",
+	"description": "Stupid async implementation using await-generator",
+	"type": "library",
+	"license": "GPL-3.0-only",
+	"require": {
+		"sof3/await-generator": "^3.4"
+	},
+	"require-dev": {
+		"pocketmine/pocketmine-mp": "^4.5"
+	},
+	"autoload": {
+		"psr-0": {
+			"Mcbeany\\libAsync": "src/"
+		}
+	}
 }
